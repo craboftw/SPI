@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/CMakeFiles/libigl-download"
+		},
+		{
+			"file" : "/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/CMakeFiles/libigl-download.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/CMakeFiles/libigl-download-complete.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-install.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-mkdir.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-download.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-update.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-patch.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-configure.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-build.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libigl-download"
+		],
+		"name" : "libigl-download"
+	}
+}

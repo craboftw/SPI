@@ -1,0 +1,136 @@
+Performing C++ SOURCE FILE Test IS_SUPPORTED_-Werror-implicit failed with the following output:
+Change Dir: /home/lvl99/Desktop/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85ac5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85ac5.dir/build.make CMakeFiles/cmTC_85ac5.dir/build
+gmake[1]: Entering directory '/home/lvl99/Desktop/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_85ac5.dir/src.cxx.o
+/usr/bin/c++   -DIS_SUPPORTED_-Werror-implicit -Werror=implicit -o CMakeFiles/cmTC_85ac5.dir/src.cxx.o -c /home/lvl99/Desktop/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: '-Werror=' argument '-Werror=implicit' is not valid for C++
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_85ac5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85ac5.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_85ac5.dir/src.cxx.o -o cmTC_85ac5 
+gmake[1]: Leaving directory '/home/lvl99/Desktop/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test IS_SUPPORTED_-Werror-pointer-to-int-cast failed with the following output:
+Change Dir: /home/lvl99/Desktop/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_af7c0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_af7c0.dir/build.make CMakeFiles/cmTC_af7c0.dir/build
+gmake[1]: Entering directory '/home/lvl99/Desktop/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_af7c0.dir/src.cxx.o
+/usr/bin/c++   -DIS_SUPPORTED_-Werror-pointer-to-int-cast -Werror=pointer-to-int-cast -o CMakeFiles/cmTC_af7c0.dir/src.cxx.o -c /home/lvl99/Desktop/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: '-Werror=' argument '-Werror=pointer-to-int-cast' is not valid for C++
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_af7c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af7c0.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_af7c0.dir/src.cxx.o -o cmTC_af7c0 
+gmake[1]: Leaving directory '/home/lvl99/Desktop/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test IS_SUPPORTED_-Werror-implicit failed with the following output:
+Change Dir: /home/luis/Desktop/Sc/test1/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2363d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2363d.dir/build.make CMakeFiles/cmTC_2363d.dir/build
+gmake[1]: Entering directory '/home/luis/Desktop/Sc/test1/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2363d.dir/src.cxx.o
+/usr/bin/c++   -DIS_SUPPORTED_-Werror-implicit -Werror=implicit -o CMakeFiles/cmTC_2363d.dir/src.cxx.o -c /home/luis/Desktop/Sc/test1/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: '-Werror=' argument '-Werror=implicit' is not valid for C++
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_2363d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2363d.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_2363d.dir/src.cxx.o -o cmTC_2363d 
+gmake[1]: Leaving directory '/home/luis/Desktop/Sc/test1/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test IS_SUPPORTED_-Werror-pointer-to-int-cast failed with the following output:
+Change Dir: /home/luis/Desktop/Sc/test1/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_088c9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_088c9.dir/build.make CMakeFiles/cmTC_088c9.dir/build
+gmake[1]: Entering directory '/home/luis/Desktop/Sc/test1/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_088c9.dir/src.cxx.o
+/usr/bin/c++   -DIS_SUPPORTED_-Werror-pointer-to-int-cast -Werror=pointer-to-int-cast -o CMakeFiles/cmTC_088c9.dir/src.cxx.o -c /home/luis/Desktop/Sc/test1/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: '-Werror=' argument '-Werror=pointer-to-int-cast' is not valid for C++
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_088c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_088c9.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_088c9.dir/src.cxx.o -o cmTC_088c9 
+gmake[1]: Leaving directory '/home/luis/Desktop/Sc/test1/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test IS_SUPPORTED_-Werror-implicit failed with the following output:
+Change Dir: /home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7f4a8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7f4a8.dir/build.make CMakeFiles/cmTC_7f4a8.dir/build
+gmake[1]: Entering directory '/home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7f4a8.dir/src.cxx.o
+/usr/bin/c++   -DIS_SUPPORTED_-Werror-implicit -Werror=implicit -o CMakeFiles/cmTC_7f4a8.dir/src.cxx.o -c /home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: '-Werror=' argument '-Werror=implicit' is not valid for C++
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_7f4a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f4a8.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_7f4a8.dir/src.cxx.o -o cmTC_7f4a8 
+gmake[1]: Leaving directory '/home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test IS_SUPPORTED_-Werror-pointer-to-int-cast failed with the following output:
+Change Dir: /home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_45a2f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_45a2f.dir/build.make CMakeFiles/cmTC_45a2f.dir/build
+gmake[1]: Entering directory '/home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_45a2f.dir/src.cxx.o
+/usr/bin/c++   -DIS_SUPPORTED_-Werror-pointer-to-int-cast -Werror=pointer-to-int-cast -o CMakeFiles/cmTC_45a2f.dir/src.cxx.o -c /home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: '-Werror=' argument '-Werror=pointer-to-int-cast' is not valid for C++
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_45a2f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45a2f.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_45a2f.dir/src.cxx.o -o cmTC_45a2f 
+gmake[1]: Leaving directory '/home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test IS_SUPPORTED_-Werror-implicit failed with the following output:
+Change Dir: /home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ae8eb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ae8eb.dir/build.make CMakeFiles/cmTC_ae8eb.dir/build
+gmake[1]: Entering directory '/home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ae8eb.dir/src.cxx.o
+/usr/bin/c++   -DIS_SUPPORTED_-Werror-implicit -Werror=implicit -o CMakeFiles/cmTC_ae8eb.dir/src.cxx.o -c /home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: '-Werror=' argument '-Werror=implicit' is not valid for C++
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_ae8eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae8eb.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_ae8eb.dir/src.cxx.o -o cmTC_ae8eb 
+gmake[1]: Leaving directory '/home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test IS_SUPPORTED_-Werror-pointer-to-int-cast failed with the following output:
+Change Dir: /home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_70648/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_70648.dir/build.make CMakeFiles/cmTC_70648.dir/build
+gmake[1]: Entering directory '/home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70648.dir/src.cxx.o
+/usr/bin/c++   -DIS_SUPPORTED_-Werror-pointer-to-int-cast -Werror=pointer-to-int-cast -o CMakeFiles/cmTC_70648.dir/src.cxx.o -c /home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: '-Werror=' argument '-Werror=pointer-to-int-cast' is not valid for C++
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_70648
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70648.dir/link.txt --verbose=1
+/usr/bin/c++ -rdynamic CMakeFiles/cmTC_70648.dir/src.cxx.o -o cmTC_70648 
+gmake[1]: Leaving directory '/home/luis/Desktop/stltostep/Scattered_Points_Interpolation-master/app/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

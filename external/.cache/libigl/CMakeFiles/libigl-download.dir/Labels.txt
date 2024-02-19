@@ -1,0 +1,14 @@
+# Target labels
+ libigl-download
+# Source files and their labels
+/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/CMakeFiles/libigl-download
+/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/CMakeFiles/libigl-download.rule
+/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/CMakeFiles/libigl-download-complete.rule
+/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-install.rule
+/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-mkdir.rule
+/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-download.rule
+/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-update.rule
+/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-patch.rule
+/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-configure.rule
+/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-build.rule
+/mnt/c/Users/flopezguerrero/Scattered_Points_Interpolation-master/external/.cache/libigl/libigl-download-prefix/src/libigl-download-stamp/libigl-download-test.rule

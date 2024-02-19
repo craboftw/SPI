@@ -1,0 +1,110 @@
+cmake_minimum_required(VERSION 3.1)
+project(Sparse_Interp)
+
+################################################################################
+# project-options
+
+# libigl
+option(LIBIGL_USE_STATIC_LIBRARY     "Use libigl as static library" OFF)
+option(LIBIGL_WITH_ANTTWEAKBAR       "Use AntTweakBar"              OFF)
+option(LIBIGL_WITH_CGAL              "Use CGAL"                     OFF)
+option(LIBIGL_WITH_COMISO            "Use CoMiso"                   OFF)
+option(LIBIGL_WITH_CORK              "Use Cork"                     OFF)
+option(LIBIGL_WITH_EMBREE            "Use Embree"                   OFF)
+option(LIBIGL_WITH_LIM               "Use LIM"                      OFF)
+option(LIBIGL_WITH_MATLAB            "Use Matlab"                   OFF)
+option(LIBIGL_WITH_MOSEK             "Use MOSEK"                    OFF)
+option(LIBIGL_WITH_OPENGL            "Use OpenGL"                   ON)
+option(LIBIGL_WITH_OPENGL_GLFW       "Use GLFW"                     ON)
+option(LIBIGL_WITH_OPENGL_GLFW_IMGUI "Use ImGui"                    OFF)
+option(LIBIGL_WITH_PNG               "Use PNG"                      OFF)
+option(LIBIGL_WITH_PYTHON            "Use Python"                   OFF)
+option(LIBIGL_WITH_TETGEN            "Use Tetgen"                   OFF)
+option(LIBIGL_WITH_TRIANGLE          "Use Triangle"                 ON)
+option(LIBIGL_WITH_VIEWER            "Use OpenGL viewer"            OFF)
+option(LIBIGL_WITH_XML               "Use XML"                      OFF)
+option(LIBIGL_WITH_PREDICATES        "Use exact predicates"         ON)
+
+################################################################################
+
+### Configuration
+set(SPARSE_EXTERNAL "${CMAKE_CURRENT_SOURCE_DIR}/external")
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
+list(APPEND CMAKE_MODULE_PATH ${THIRD_PARTY_DIR}/Catch2/contrib)
+set(SPARSE_SRC ${CMAKE_CURRENT_SOURCE_DIR}/sparse_interp)
+
+#YO DEBUG
+set(CMAKE_BUILD_TYPE Debug)
+
+include(Warnings)
+include(UseColors)
+include(${PROJECT_NAME}Dependencies)
+include(PrependCurrentPath)
+include(Sparse_InterpUtils)
+
+############################
+
+# B spline library.
+# igl -> splines
+include(B_spline/SOURCE.cmake)
+prepend_current_path(SPLINE_SOURCES)
+SI_copy_headers(${SPLINE_SOURCES})
+SI_set_source_group(${SPLINE_SOURCES})
+add_library(splines ${SPLINE_SOURCES})
+#target_sources(splines PRIVATE ${SPLINE_SOURCES})
+target_include_directories(splines PUBLIC ${PROJECT_BINARY_DIR}/include)
+target_link_libraries(splines PUBLIC igl::core igl::predicates igl::opengl_glfw igl::triangle Eigen3::Eigen)
+target_compile_definitions(splines PUBLIC
+    SI_MESH_DIR="${CMAKE_CURRENT_SOURCE_DIR}/app/meshes/")
+    
+###############################
+
+# the comparison methods
+include(comparisons/compare.cmake)
+add_library(compare  ${COMPARE_SOURCES})
+SI_copy_headers(${COMPARE_SOURCES})
+target_include_directories(compare PUBLIC ${PROJECT_BINARY_DIR}/include)
+target_link_libraries(compare PUBLIC splines)
+
+################################
+
+#Para usar Eigen:
+list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/external/eigen/cmake)
+find_package(Eigen3 REQUIRED)
+include_directories(${EIGEN3_INCLUDE_DIR})
+
+################################
+
+#Test Open CASCADE
+
+# Set the path to the Open CASCADE installation
+set(OCCT_INSTALL_DIR "${CMAKE_CURRENT_SOURCE_DIR}/OCCT/buildwsl")
+ 
+# Include directories
+include_directories(${OCCT_INSTALL_DIR}/include/opencascade)
+
+# Link directories
+link_directories(${OCCT_INSTALL_DIR}/lin64/gcc/lib)
+
+################################
+
+add_executable(example2_bin
+    app/example2.cpp
+  )
+target_include_directories(example2_bin PUBLIC ${PROJECT_BINARY_DIR}/include)
+# Link libraries
+target_link_libraries(example2_bin
+  TKernel
+  TKMath
+  TKG3d
+  TKGeomBase
+  TKTopAlgo
+  TKBRep
+  TKDESTEP
+  TKXSBase
+  splines igl::core
+)
+
+
+
+

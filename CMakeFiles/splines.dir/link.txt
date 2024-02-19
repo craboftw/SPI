@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsplines.a CMakeFiles/splines.dir/B_spline/basis.cpp.o CMakeFiles/splines.dir/B_spline/curve.cpp.o CMakeFiles/splines.dir/B_spline/surface.cpp.o CMakeFiles/splines.dir/B_spline/mesh_processing.cpp.o CMakeFiles/splines.dir/B_spline/energy.cpp.o CMakeFiles/splines.dir/B_spline/curve_energy.cpp.o
+/usr/bin/ranlib libsplines.a

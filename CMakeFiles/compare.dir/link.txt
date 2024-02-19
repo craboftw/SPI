@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcompare.a CMakeFiles/compare.dir/comparisons/comparison.cpp.o
+/usr/bin/ranlib libcompare.a
