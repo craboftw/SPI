@@ -91,6 +91,8 @@ link_directories(${OCCT_INSTALL_DIR}/lin64/gcc/lib)
 add_executable(example2_bin
     app/example2.cpp
   )
+  target_compile_definitions(example2_bin PUBLIC
+    SI_MESH_DIR="${CMAKE_CURRENT_SOURCE_DIR}/app/meshes/")
 target_include_directories(example2_bin PUBLIC ${PROJECT_BINARY_DIR}/include)
 # Link libraries
 target_link_libraries(example2_bin
