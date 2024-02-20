@@ -104,8 +104,8 @@ target_link_libraries(example2_bin
   TKBRep
   TKDESTEP
   TKXSBase
-  #splines 
-  igl::core
+  splines 
+  #igl::core
 )
 
 
