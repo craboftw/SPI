@@ -5,7 +5,7 @@ project(Sparse_Interp)
 # project-options
 
 # libigl
-option(LIBIGL_USE_STATIC_LIBRARY     "Use libigl as static library" OFF)
+option(LIBIGL_USE_STATIC_LIBRARY     "Use libigl as static library" ON)
 option(LIBIGL_WITH_ANTTWEAKBAR       "Use AntTweakBar"              OFF)
 option(LIBIGL_WITH_CGAL              "Use CGAL"                     OFF)
 option(LIBIGL_WITH_COMISO            "Use CoMiso"                   OFF)
@@ -20,7 +20,7 @@ option(LIBIGL_WITH_OPENGL_GLFW_IMGUI "Use ImGui"                    OFF)
 option(LIBIGL_WITH_PNG               "Use PNG"                      OFF)
 option(LIBIGL_WITH_PYTHON            "Use Python"                   OFF)
 option(LIBIGL_WITH_TETGEN            "Use Tetgen"                   OFF)
-option(LIBIGL_WITH_TRIANGLE          "Use Triangle"                 OFF)
+option(LIBIGL_WITH_TRIANGLE          "Use Triangle"                 ON)
 option(LIBIGL_WITH_VIEWER            "Use OpenGL viewer"            OFF)
 option(LIBIGL_WITH_XML               "Use XML"                      OFF)
 option(LIBIGL_WITH_PREDICATES        "Use exact predicates"         ON)
@@ -103,7 +103,7 @@ target_link_libraries(example2_bin
   TKDESTEP
   TKXSBase
   splines 
-  #igl::core
+  igl::core
 )
 
 
