@@ -87,6 +87,7 @@ include_directories(${OCCT_INSTALL_DIR}/include/opencascade)
 link_directories(${OCCT_INSTALL_DIR}/lin64/gcc/lib)
 
 ################################
+set_target_properties(example2_bin PROPERTIES LINK_FLAGS "-Wl,--allow-multiple-definition")
 
 add_executable(example2_bin
     app/example2.cpp
