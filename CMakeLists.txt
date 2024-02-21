@@ -87,11 +87,12 @@ include_directories(${OCCT_INSTALL_DIR}/include/opencascade)
 link_directories(${OCCT_INSTALL_DIR}/lin64/gcc/lib)
 
 ################################
-set_target_properties(example2_bin PROPERTIES LINK_FLAGS "-Wl,--allow-multiple-definition")
 
 add_executable(example2_bin
     app/example2.cpp
   )
+set_target_properties(example2_bin PROPERTIES LINK_FLAGS "-Wl,--allow-multiple-definition")
+
   target_compile_definitions(example2_bin PUBLIC
     SI_MESH_DIR="${CMAKE_CURRENT_SOURCE_DIR}/app/meshes/")
 target_include_directories(example2_bin PUBLIC ${PROJECT_BINARY_DIR}/include)
